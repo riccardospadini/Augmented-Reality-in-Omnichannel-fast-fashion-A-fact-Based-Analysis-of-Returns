@@ -24,15 +24,16 @@ This repository contains the code and methodology for analyzing the impact of Au
 - **CO₂ Reduction**: 34 tons annually per 1M users
   
 ## Repository Structure
+
 ├── Code/           # Python scripts for analysis
 ├── Data/           # Data descriptions (synthetic data used)
 ├── requirements.txt # Package dependencies
 └── README.md       # This file
 
 ## Installation
-```bash
 # Clone repository
 git clone https://github.com/riccardospadini/Augmented-Reality-in-Omnichannel-fast-fashion-A-fact-Based-Analysis-of-Returns.git
+cd Augmented-Reality-in-Omnichannel-fast-fashion-A-fact-Based-Analysis-of-Returns
 
 # Install dependencies
 pip install -r requirements.txt
@@ -45,21 +46,14 @@ python Code/03_regression_analysis.py  # Regression models
 python Code/04_monte_carlo_simulation.py # Monte Carlo simulations
 python Code/05_visualization.py        # Generate figures
 
-Methodology
-Data Generation
+## Methodology (quick summary)
 
 300,000 synthetic observations (100k users × 3 scenarios)
 Customer segmentation: Early Adopters (50%) vs Traditional (50%)
-Three scenarios: Pessimistic, Base, Optimistic
+Scenarios: Pessimistic, Base, Optimistic
+Statistical Analysis: logistic regression (conversion/returns), OLS (economics), Monte Carlo (robustness), heterogeneous effects by segment.
 
-Statistical Analysis
-
-Logistic regression for conversion and return probabilities
-OLS regression for economic impacts
-Monte Carlo simulation (1000 iterations) for robustness
-Heterogeneous treatment effects by segment
-
-Citation
+## Citation
 If you use this code for research, please cite:
 @mastersthesis{spadini2025ar,
   title={Augmented Reality in Omnichannel Fast Fashion: A Fact-Based Analysis of Returns},
@@ -69,11 +63,11 @@ If you use this code for research, please cite:
   type={Master's Thesis}
 }
 
-License
+## License
 This project is licensed under the MIT License - see LICENSE file for details.
 
-
-📧 Contact
+## Contact 
 For questions or collaborations, please contact:
 Email: riccardo.spadini@studenti.luiss.it
+
 
