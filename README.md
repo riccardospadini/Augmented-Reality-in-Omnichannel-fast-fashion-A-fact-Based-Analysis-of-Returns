@@ -1,6 +1,6 @@
 # Augmented Reality in Omnichannel Fast Fashion: A Fact-Based Analysis of Returns on Customer Satisfaction
 
-## 📊 Research Overview
+## Research Overview
 
 This repository contains the code and methodology for analyzing the impact of Augmented Reality (AR) / Virtual Try-On (VTO) technology on customer behavior and returns in fast fashion e-commerce.
 
@@ -9,14 +9,14 @@ This repository contains the code and methodology for analyzing the impact of Au
 **Program**: Data Science Management  
 **Year**: 2025  
 
-## 🎯 Research Objectives
+## Research Objectives
 
 1. Quantify the impact of AR on conversion rates and return rates
 2. Analyze heterogeneous effects across customer segments
 3. Evaluate economic and environmental implications
 4. Provide strategic recommendations for AR implementation
 
-## 📈 Key Findings
+## Key Findings
 
 - **Conversion Rate**: +71% increase with AR implementation
 - **Return Rate**: -74% reduction for buyers using AR
@@ -24,13 +24,13 @@ This repository contains the code and methodology for analyzing the impact of Au
 - **CO₂ Reduction**: 34 tons annually per 1M users
 - **ROI**: 245% in Year 1
 
-## 🔧 Repository Structure
+## Repository Structure
 ├── Code/           # Python scripts for analysis
 ├── Data/           # Data descriptions (synthetic data used)
 ├── requirements.txt # Package dependencies
 └── README.md       # This file
 
-## 💻 Installation
+## Installation
 ```bash
 # Clone repository
 git clone https://github.com/riccardospadini/Augmented-Reality-in-Omnichannel-fast-fashion-A-fact-Based-Analysis-of-Returns.git
@@ -38,7 +38,7 @@ git clone https://github.com/riccardospadini/Augmented-Reality-in-Omnichannel-fa
 # Install dependencies
 pip install -r requirements.txt
 
-## 🚀 Usage
+## Usage
 Run the analysis pipeline in sequence:
 bashpython Code/01_data_generation.py      # Generate synthetic dataset
 python Code/02_descriptive_analysis.py # Descriptive statistics
@@ -46,7 +46,7 @@ python Code/03_regression_analysis.py  # Regression models
 python Code/04_monte_carlo_simulation.py # Monte Carlo simulations
 python Code/05_visualization.py        # Generate figures
 
-📊 Methodology
+Methodology
 Data Generation
 
 300,000 synthetic observations (100k users × 3 scenarios)
@@ -60,7 +60,7 @@ OLS regression for economic impacts
 Monte Carlo simulation (1000 iterations) for robustness
 Heterogeneous treatment effects by segment
 
-📖 Citation
+Citation
 If you use this code for research, please cite:
 @mastersthesis{spadini2025ar,
   title={Augmented Reality in Omnichannel Fast Fashion: A Fact-Based Analysis of Returns},
@@ -70,11 +70,12 @@ If you use this code for research, please cite:
   type={Master's Thesis}
 }
 
-📜 License
+License
 This project is licensed under the MIT License - see LICENSE file for details.
 
 
 📧 Contact
 For questions or collaborations, please contact:
+
 
 Email: riccardo.spadini@studenti.luiss.it]
