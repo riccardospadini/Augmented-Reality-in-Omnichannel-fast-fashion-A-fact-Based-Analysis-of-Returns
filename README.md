@@ -4,7 +4,7 @@
 
 This repository contains the code and methodology for analyzing the impact of Augmented Reality (AR) / Virtual Try-On (VTO) technology on customer behavior and returns in fast fashion e-commerce.
 
-**Author**: [Your Name]  
+**Author**: Riccardo Spadini   
 **Institution**: LUISS Guido Carli University  
 **Program**: Data Science Management  
 **Year**: 2025  
@@ -22,8 +22,7 @@ This repository contains the code and methodology for analyzing the impact of Au
 - **Return Rate**: -74% reduction for buyers using AR
 - **Revenue Impact**: €3.54 additional revenue per user
 - **CO₂ Reduction**: 34 tons annually per 1M users
-- **ROI**: 245% in Year 1
-
+  
 ## Repository Structure
 ├── Code/           # Python scripts for analysis
 ├── Data/           # Data descriptions (synthetic data used)
@@ -76,6 +75,5 @@ This project is licensed under the MIT License - see LICENSE file for details.
 
 📧 Contact
 For questions or collaborations, please contact:
+Email: riccardo.spadini@studenti.luiss.it
 
-
-Email: riccardo.spadini@studenti.luiss.it]
